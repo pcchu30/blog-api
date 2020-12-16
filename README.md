@@ -36,3 +36,13 @@ The return value key is the auth token for this new user.
 
 Token Table in Admin
 ![alt text](https://github.com/pcchu30/static/blob/master/images/django_api/Token_table.png?raw=true)
+
+## API Documentation
+
+* Swagger endpoint
+http://127.0.0.1:8000/swagger/
+![alt text](https://github.com/pcchu30/static/blob/master/images/django_api/Swagger.png?raw=true)
+
+* ReDoc endpoint
+http://127.0.0.1:8000/redoc/
+![alt text](https://github.com/pcchu30/static/blob/master/images/django_api/Redoc.png?raw=true)

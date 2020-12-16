@@ -19,3 +19,13 @@ http://127.0.0.1:8000/api/v1/1/
 To implement token authentication, third-party packages are used. We use **dj-rest-auth** in combination with **django-allauth** to simplify things.
 
 Here are some endpoints.
+
+* Log in endpoint  
+http://127.0.0.1:8000/api/v1/dj-rest-auth/login/
+
+* Log out endpoint  
+http://127.0.0.1:8000/api/v1/dj-rest-auth/logout/
+
+* User registration endpoint: here we output the emails to the console with the console.EmailBackend setting.  
+http://127.0.0.1:8000/api/v1/dj-rest-auth/registration/  
+

@@ -29,5 +29,5 @@ http://127.0.0.1:8000/api/v1/dj-rest-auth/logout/
 * User registration endpoint: here we output the emails to the console with the console.EmailBackend setting.  
 http://127.0.0.1:8000/api/v1/dj-rest-auth/registration/  
 
-![alt text](https://github.com/pcchu30/static/blob/master/images/django_api/Register.png?raw=true "Registration")
+![alt TT](https://github.com/pcchu30/static/blob/master/images/django_api/Register.png?raw=true)
 

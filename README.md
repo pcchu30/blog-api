@@ -15,3 +15,7 @@ http://127.0.0.1:8000/api/v1/1/
 * Project-Level Permissions: only authenticated, or logged in, users can view the API.
 * View-Level Custom Permissions: in the file, posts/permissions.py, read-only permissions are allowed for any request, but write permissions are only allowed to the author of a post.
 
+## Token Authentication
+To implement token authentication, third-party packages are used. We use **dj-rest-auth** in combination with **django-allauth** to simplify things.
+
+Here are some endpoints.

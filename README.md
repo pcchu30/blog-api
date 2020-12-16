@@ -34,3 +34,5 @@ http://127.0.0.1:8000/api/v1/dj-rest-auth/registration/
 The return value key is the auth token for this new user.
 ![alt text](https://github.com/pcchu30/static/blob/master/images/django_api/Register_key.png?raw=true)
 
+Token Table in Admin
+![alt text](https://github.com/pcchu30/static/blob/master/images/django_api/Token_table.png?raw=true)

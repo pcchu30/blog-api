@@ -7,6 +7,11 @@ We list all available blog posts as a read-write endpoint which means using `Lis
 * Post List endpoint: both GET and POST methods are allowed.  
 http://127.0.0.1:8000/api/v1/
 
-* Single Post endpoint: GET, PUT, and DELETE are supported.
+* Single Post endpoint: GET, PUT, and DELETE are supported.  
 http://127.0.0.1:8000/api/v1/1/
+
+##  Permissions
+
+* Project-Level Permissions: only authenticated, or logged in, users can view the API.
+* View-Level Custom Permissions: in the file, posts/permissions.py, read-only permissions are allowed for any request, but write permissions are only allowed to the author of a post.
 
